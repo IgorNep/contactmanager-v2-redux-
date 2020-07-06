@@ -2,10 +2,12 @@
   "name": "contactmanager",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://igornep.github.io/contactmanager-v2-redux-",
   "dependencies": {
     "axios": "^0.18.1",
     "bootstrap": "^4.5.0",
     "classnames": "^2.2.6",
+    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
@@ -19,6 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -d build"
   }
 }
